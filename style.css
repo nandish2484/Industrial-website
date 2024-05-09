@@ -616,7 +616,7 @@ h5{
   }
 
 
-  .project-card .card-content { padding: 40px; }
+  .project-card .card-content { padding: 19px; }
 
 }
 
@@ -633,6 +633,7 @@ h5{
 
   }
 
+  
 
 
 
@@ -646,7 +647,7 @@ h5{
   }
 
   .service-card{
-    width: 275px;
+    width: 230px;
   }
 
 
@@ -662,17 +663,17 @@ h5{
     margin-left: 75px;
   }
   .project-card{
-    width: 300px;
+    width: 200px;
+    
 
     img{
-    height: 265px;
+    height: 180px;
     }
   }
   .grid-listop{
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    gap: 60px;
+    gap: 50px;
   }
 
   .header.active .btn {
@@ -712,9 +713,7 @@ h5{
   }
 
   .feature-banner { order: 1; }
-  .hero-container{
-    width: 55vmin;
-  }
+  
 
 }
 
@@ -826,6 +825,21 @@ h5{
 
   .hero-container{
     width: 60vmin;
+  }
+
+
+  .project-card{
+    width: 300px;
+    
+
+    img{
+    height: 280px;
+    }
+  }
+  .grid-listop{
+    display: flex;
+    flex-direction: row;
+    gap: 10 0px;
   }
 
 
