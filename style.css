@@ -593,12 +593,19 @@ h5{
   transition: var(--transition-1);
 }
 
-.footer-link:is(:hover,:focus-visible){
-  color: var(--violet-blue-crayola);
-}
+
 
 .footer-mail{
   margin-top: 20px;
+}
+
+.view-video{
+  color: var(--violet-blue-crayola);
+  margin-top: 30px;
+  text-align: center;
+  border: 2px solid var(--violet-blue-crayola);
+  border-radius: 10px;
+  
 }
 
 
@@ -840,6 +847,11 @@ h5{
     display: flex;
     flex-direction: row;
     gap: 10 0px;
+    justify-content: center;
+  }
+
+  .view-video{
+    color: var(--violet-blue-crayola);
   }
 
 
