@@ -221,6 +221,17 @@ h5{
   font-weight: var(--fw-700);
 }
 
+.clientsop{
+  display: flex;
+  margin-bottom: 35px;
+  justify-content: center;
+  font-size: var(--fs-2);
+  text-transform: uppercase;
+  color: var(--violet-blue-crayola);
+  font-weight: var(--fw-700);
+  margin-top: 70px;
+}
+
 .section-titleop{
   display: flex;
   justify-content: center;
@@ -231,6 +242,17 @@ h5{
   gap: 25px;
  
 }
+
+.clientgrid{
+  gap: 25px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+
 
 
 
@@ -410,7 +432,10 @@ h5{
 
 .hero-title{
   color: var(--raisin-black);
+  font-size: var(--ff-manrope);
+  font-size: 30px;
 }
+
 
 .hero-text{
   font-size: var(--fs-5);
@@ -469,6 +494,27 @@ h5{
   border-radius: var(--radius-6);
 }
 
+.service-cardop{
+  padding-top: 20px;
+  padding-left: 20px;
+  box-shadow: var(--shadow-2);
+  border-radius: var(--radius-6);
+  width: 220px;
+  height: 95px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-titleop{
+  font-size: 14px;
+}
+
+.card-textop{
+  font-size: 14px;
+}
+
+
+
+
 .service-card .card-icon{
   width: 60px;
   height: 60px;
@@ -483,6 +529,19 @@ h5{
 
 .service-card .card-title{
   margin-block: 16px 10px;
+}
+
+.card-text{
+  margin-top: 20px;
+}
+
+.arrow{
+  display:inline;
+  visibility:hidden;
+}
+
+.textop{
+  margin-top: 5px;
 }
 
 .section-subtitle{
@@ -608,14 +667,35 @@ h5{
   
 }
 
+.service-cardop:hover{
+  transform: scale(1.1);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
 
 /* ---------------------------------------------------------------------------- */
 
 
+@media(max-width:496px){
+  .service-cardop {
+    padding-top: 20px;
+    padding-left: 20px;
+    box-shadow: var(--shadow-2);
+    border-radius: var(--radius-6);
+    width: 150px;
+    height: 110px;
+}
+  .card-titleop {
+    font-size: 13px;
+    
+}
+
+  .card-textop{
+    font-size: 13px;
+    
+  }
+}
 @media (min-width: 575px) {
-
-
-
   .container {
     max-width: 540px;
     width: 100%;
@@ -624,6 +704,8 @@ h5{
 
 
   .project-card .card-content { padding: 19px; }
+
+  
 
 }
 
@@ -666,8 +748,9 @@ h5{
   }
 
   .hero-container{
-    width: 70vmin;
-    margin-left: 75px;
+    width: 61vmin;
+    margin-left: 160px;
+    
   }
   .project-card{
     width: 200px;
@@ -701,7 +784,7 @@ h5{
 
 
   .service .section-title {
-    max-width: 30ch;
+    max-width: 60ch;
     margin-inline: auto;
   }
 
