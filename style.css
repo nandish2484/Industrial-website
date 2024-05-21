@@ -751,10 +751,13 @@ h5{
     padding: 8px 20px;
   }
 
+  .autocontainer{
+    display: flex;
+    justify-content: center;
+  }
+
   .hero-container{
     width: 61vmin;
-    margin-left: 160px;
-    
   }
   .project-card{
     width: 280px;
